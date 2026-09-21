@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(0, 136, 255);
+}
+
+.main{
+    background-color: beige;
+    color: brown;
+    width: 500px;
+    height: 300px;
+
+}
+
+#card {
+    background-color: beige;
+
+    h5{
+        color: black;
+    }
+}
+
+#card p{
+    border: 15px groove rgb(184, 130, 130);
+    height: 400px;
+    width: 600px;
+    overflow: auto;
+}
+
+#clickbutton{
+    /* background-color: rgb(116, 209, 255); */
+    border: 1px color(srgb red green blue);
+
+    border-color: green;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 1px rgb(107, 107, 107);
+}
+
+#clickbutton:active{
+    background-color: green;
+    color: white;
+}
+
+#clickbutton:hover{
+    background-color: white;
+    color: green;
+}
+

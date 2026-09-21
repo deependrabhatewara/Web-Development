@@ -1,3 +1,11 @@
-*{
-    background-color: #FFE8FA;
+body{
+    background-color: rgb(174, 99, 244);
+}
+
+.kuchbhi{
+    background-color: rgba(231, 243, 95, 0.546);
+}
+
+#html{
+    background-color: bisque;
 }
