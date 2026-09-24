@@ -1,0 +1,29 @@
+*{
+    background-color: #ffe1db;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.qualification{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+#title {
+    font-weight: 700;
+}
+
+header{
+    text-align: center;
+}
+div{
+    margin: 8px;
+}
+select{
+    margin: 3px;
+}
+legend{
+    font-weight: 500;
+}
