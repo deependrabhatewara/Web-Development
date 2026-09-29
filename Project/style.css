@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#upperheader{
+    margin: 0;
+    padding: 5px 20px;
+    padding-left: 140px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 1px;
+    font-size: x-small;
+    gap: 10px;
+    background-color: #175CDD;
+    color: white;
+
+}
+
+#Clinic{
+    padding-left: 110px;
+    color: #102348;
+}
+
+
+#menu-item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: x-small;
+    color: rgb(93, 93, 93);
+    
+}
+
+
+#header{
+    background-color: #ffffff;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+    /* box-shadow: 10px 10px 10px 10px rgb(0, 0, 0); */
+
+    border-width: 1px;
+    box-shadow: 1px 1px 1px 1px rgb(201, 201, 201);
+}
+
+#ULtext{
+    padding: 10px 20px;
+    padding-left: 120px;
+    font-size: 40px;
+    font-weight: 500px;
+}
+
+ul{
+    list-style: "";
+}
+#ULtext span{
+    text-decoration: underline;
+    color: #175CDD;
+}
+
+#Lorem{
+    padding-left: 120px;
+    padding-right: 430px;
+    margin: 0;
+    font-size: 11px;
+    line-height: 1.5;
+    color: 
+    color-mix(in srgb, var(--default-color), transparent 20%);
+    max-width: 430px;
+    color: rgba(101, 100, 100, 0.937);
+}
+
+#pad{
+    padding-left: 120px;
+}
+
+.Experiences{
+    display: inline-block;
+    width: 90px;
+
+}
+
+.text{
+    font-size: xx-small;
+    white-space: nowrap;
+}
+
+.data{
+    font-size: larger;
+    color: #175CDD;
+    font-weight: 900px;
+}
+
+#button{
+    border: 0px;
+    font-size: xx-small;
+    font-weight: 700;
+    width: 120px;
+    height: 40px;
+    background-color: #175CDD;
+    border-radius: 20px;
+    color: white;
+}
+
+#ul2{
+/* play symbol */
+}
+
+#buttonsection{
+    padding-left: 120px;
+}
+
+#button2{
+
+     border: 1px solid;
+    border-color: #3c6ffc;
+    font-size: xx-small;
+    font-weight: 700;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    color: #175CDD;
+}
+
+#button2:hover{
+     background-color: #175CDD;
+    color: white;
+}
+
+.emergencyhead{
+    padding-left: 120px;
+
+}
+
+#card{
+    background-color: #ffffff;
+    border: 1px solid #175cdd33;
+    border-radius: 5px;
+    width: 340px;
+    height: 50px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+#headline{
+    font-size: xx-small;
+}
+#num{
+    font-size: small;
+}
+
+.colorsec2{
+    background-color: #F8FAFC;
+
+    padding-bottom: 80px;
+}
