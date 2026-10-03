@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+#navigation-bar{
+    display: flex;
+    gap: 20px;
+}
+
+
 .colorsec2 {
     position: relative;
     min-height: 850px;

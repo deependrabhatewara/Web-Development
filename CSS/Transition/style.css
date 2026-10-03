@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#hw{
+
+    margin-top: 280px;
+    margin-left: 100px;
+    height: 2.5rem;
+    width: 400px;
+    border: 1px solid red;
+    background-color: rgb(253, 148, 0);
+    
+    transition: width 2s, background-color 2s;
+    
+
+
+
+    /* 1rem = 16px */
+}
+
+#hw:hover{
+    width: 650px;
+    background-color: rgba(255, 145, 0, 0.443);
+    transition: width 2s
+    , background-color 2s;;
+    text-wrap-mode: nowrap;
+    overflow: hidden;
+}
+
+#wlcm{
+    background-color: red;
+}
+
+#wlcm::after{
+    content: "❤️";
+    /* data coming from  backend */
+}
+
+.d::before{
+    content: ;
+}
+
+#box{
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+
+}
+
+#box:hover{
+    width: 1000px;
+    transition: width 2s linear;
+}
