@@ -15,7 +15,7 @@
     display: inline-block;
 
     #upperhead-sec1 {
-      padding-left: 710px;
+      padding-left: 970px;
 
       span {
         color: #ffffff83;
@@ -259,14 +259,28 @@
          justify-content: space-between;
 
         .box {
-
-          align-items: center;
           border: 1px solid red;
           height: 80px;
           width: 190px;
 
-          .stat-parameter{
+          .stats{
+            align-items: last baseline;
+            border: 1px solid red;
             color: #175cdd;
+            font-size: 40px;
+            font-weight: 100px;
+          }
+
+          .Stats-box{
+            border: 1px solid red;
+           
+            
+          }
+
+          .stat-parameter{
+            padding-left: 10px;
+            color: #175cdd;
+            font-size: 15.2px;
           }
          
         }
