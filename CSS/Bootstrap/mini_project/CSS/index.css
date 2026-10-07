@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font-grechan{
+   font-family: "Grechen Fuemen", cursive;
+}
+
+.font-robonto{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.Logo{
+    position: absolute;
+    height: 80px;
+    width:80px;
+}
+
+.hero{
+    position: relative;
+
+    #bg-img-1{
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    img {
+        opacity: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(40%);
+    }
+
+    #hero-outer{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+
+        border: 3px solid green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #hero-inner{
+        border: 3px solid white;
+        width: 50%;
+
+    }
+}
